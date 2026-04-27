@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Upload Item</h1>
+
+<form id="uploadForm">
+  <input type="text" id="title" placeholder="Title" required>
+
+  <textarea id="description" placeholder="Description"></textarea>
+
+  <input type="text" id="location" placeholder="Location">
+
+  <input type="number" id="price" placeholder="Price">
+
+  <input type="file" id="image" accept="image/*" required>
+
+  <button type="submit">Upload</button>
+</form>
+
+<hr>
+
+<h2>Uploaded Items</h2>
+
+<div id="items"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
