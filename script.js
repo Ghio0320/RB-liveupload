@@ -1,4 +1,4 @@
-const API_URL = 'YOUR_SCRIPT_URL';
+const API_URL = 'https://script.google.com/macros/s/AKfycbwmfwbgH36vMZj61aRstz8PJlIpy2CtDsrQNNEVzGm74D3cIZIbnEt5svKOqS9zpz7sLw/exec';
 
 const form = document.getElementById('uploadForm');
 const itemsDiv = document.getElementById('items');
